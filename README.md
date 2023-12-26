@@ -1,30 +1,40 @@
-# SISTEM KOMUNIKASI BERBASIS DETEKSI EKSPRESI WAJAH MENGGUNAKAN FACE API DAN TENSORFLOW JS UNTUK PENDERITA LUMPUH BADAN DAN PITA SUARA RUSAK
+# SISTEM KOMUNIKASI BERBASIS DETEKSI EKSPRESI WAJAH MENGGUNAKAN FACE API  DAN TENSORFLOW JS UNTUK PENDERITA LUMPUH BADAN DAN PITA SUARA RUSAK
 
 Sebuah aplikasi yang dapat membuat proses komunikasi antara penderita lumpuh badan dan pihak anggota keluarga menjadi lebih fleksibel tanpa harus berada di ruangan yang sama.
 
 ## Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/hagendodo/app-face-saver.git
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hagendodo/app-face-saver.git
 
-# Install Dependencies for Frontend
-cd frontend
-npm install
+2. Install Dependencies Frontend
+   <br>Pastikan berada di root directory
+   ```bash
+   cd frontend
+   npm i
 
-# Install Dependencies for Backend
-cd ../backend
-npm install
+3. Install Dependecies Backend
+  <br>Pastikan berada di root directory
+  ```bash
+     cd backend
+     npm i
+```
 
-# Import Database
-# - Open PhpMyAdmin
-# - Select the Import menu at the top
-# - Import the file `facesaver.sql`
+4. Import Database
+  - Buka PhpMyAdmin
+  - Pilih menu Import dibagian atas
+  - Import file facesaver.sql
 
-# Run the Backend App
-cd ../backend
-npm run devStart
-
-# Run the Frontend App
-cd ../frontend
-npm run dev
+5. Run the Backend App
+  Pastikan berada di root directory
+  ```bash
+     cd backend
+     npm run devStart
+   ```
+6. Run the Frontend App
+  Pastikan berada di root directory
+  ```bash
+     cd frontend
+     npm run dev
+```

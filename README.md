@@ -20,7 +20,7 @@ Sebuah aplikasi yang dapat membuat proses komunikasi antara penderita lumpuh bad
   ```bash
      cd backend
      npm i
-
+```
 4. Import Database
   - Buka PhpMyAdmin
   - Pilih menu Import dibagian atas
@@ -31,9 +31,10 @@ Sebuah aplikasi yang dapat membuat proses komunikasi antara penderita lumpuh bad
   ```bash
      cd backend
      npm run devStart
-
+```
 6. Run the Frontend App
   Pastikan berada di root directory
   ```bash
      cd frontend
      npm run dev
+```

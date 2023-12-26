@@ -26,13 +26,18 @@ Sebuah aplikasi yang dapat membuat proses komunikasi antara penderita lumpuh bad
   - Pilih menu Import dibagian atas
   - Import file facesaver.sql
 
-5. Run the Backend App
+5. Ganti TELEGRAM_CHAT_ID
+   ubah pada file .env di folder bakcend.
+   Cara mendapatkan TELEGRAM_CHAT_ID:
+   <a href="https://diyusthad.com/2022/03/how-to-get-your-telegram-chat-id.html">Lihat Disini</a>
+
+7. Run the Backend App
   Pastikan berada di root directory
   ```bash
      cd backend
      npm run devStart
    ```
-6. Run the Frontend App
+7. Run the Frontend App
   Pastikan berada di root directory
   ```bash
      cd frontend

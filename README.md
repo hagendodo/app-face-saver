@@ -14,7 +14,7 @@ Sebuah aplikasi yang dapat membuat proses komunikasi antara penderita lumpuh bad
   ```bash
    cd frontend
    npm i
-
+```
 3. Install Dependecies Backend
   Pastikan berada di root directory
   ```bash
